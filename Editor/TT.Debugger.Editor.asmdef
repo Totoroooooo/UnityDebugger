@@ -1,0 +1,18 @@
+{
+    "name": "TT.Debugger.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c9f48753b266d7944b639c3d431e7959"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
