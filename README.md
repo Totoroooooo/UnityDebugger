@@ -8,5 +8,6 @@ Change Debugger Settings (***Tools/Debugger Settings***):
 - Default Prefix Color
 - Focus Color
 - Specific classes that use a specific Prefix Color
+- Tags to show all logs all the time
 
 Created by Thomas Rogulski.
