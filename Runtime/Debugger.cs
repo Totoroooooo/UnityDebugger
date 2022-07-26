@@ -27,7 +27,7 @@ namespace TT.Debugger {
         private static string Prefix(this object logger) => string.Format(PREFIX, logger, ColorUtility.ToHtmlStringRGB(Settings.PrefixColor(logger.GetType())));
 
         private static void BaseLog(this object logger, object message, Action<object> logMethod, params string[] tags) {
-#if UNITY_EDITOR || DEBUG_BUILD
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
             foreach (var tag in tags) {
                 if (Settings.Tags.ContainsKey(tag) && !Settings.Tags[tag].Get()) {
                     return;
